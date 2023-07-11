@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .tab-custom {
+        @apply my-2 block border-x-0 border-b-2 border-t-0 border-transparent px-7 pb-3.5 pt-4 leading-tight text-neutral-500 border-b-gray-300 hover:isolate hover:border-gray-600 hover:text-blackMain focus:isolate data-[te-nav-active]:border-redMain data-[te-nav-active]:text-redMain
+    }
+}
